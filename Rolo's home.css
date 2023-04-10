@@ -1,0 +1,506 @@
+a{
+    text-decoration: none;
+    color: black;
+}
+a:visited {
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    text-decoration: none;
+    color: orangered;
+}
+a:focus{
+    text-decoration: none;
+    color: orangered;
+}
+a:active{
+    text-decoration: none;
+    color: orangered;
+}
+@keyframes Fire{
+    0% {background-image: url("/top\ half\ header.svg");}
+    30% {background-image: none;}
+    86% {background-image: url("/top\ half\ header.svg");opacity: .1;}
+    87% {background-image: url("/top\ half\ header.svg");opacity: .2;}
+    88% {background-image: url("/top\ half\ header.svg");opacity: .3;}
+    89% {background-image: url("/top\ half\ header.svg");opacity: .4;}
+    90% {background-image: url("/top\ half\ header.svg");opacity: .5;}
+    92% {background-image: url("/top\ half\ header.svg");opacity: .6;}
+    94% {background-image: url("/top\ half\ header.svg");opacity: .7;}
+    96% {background-image: url("/top\ half\ header.svg");opacity: .8;}
+    98% {background-image: url("/top\ half\ header.svg");opacity: .9;}
+    100% {background-image: url("/top\ half\ header.svg");opacity: 1;}
+}
+.Background{
+    position: fixed;
+    margin: auto;
+    width: 100%;
+    height: 100%;
+    background-image: url(/background.jpeg);
+    background-size: cover;
+}
+.CompanyName{
+    position: absolute;
+    background-color: transparent;
+    width: 20%;
+    height: 30%;
+    left: 39%;
+    text-align: center;
+    font-size: 18px;
+    top: -1%;
+    
+}
+.Header{
+position: relative;
+background-color: transparent;
+width: 100%;
+height: 8%;
+}
+.Grassback{
+    position: absolute;
+    width: 100%;
+    height: 15%;
+    background-image: url("/top\ half\ header.svg");
+    background-position: -25%;
+    background-size: contain;
+    animation-name: Fire;
+    animation-duration: 20s;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+}
+.Home{
+    position: absolute;
+    background-color: transparent;
+    margin: 0%;
+    width: 25%;
+    height: 20%;
+    left: 0%;
+    top: 50%;
+    text-align: center; 
+    font-size: xx-large;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Services{
+    position: absolute;
+    background-color: transparent;
+    margin: 0%;
+    width: 25%;
+    height: 20%;
+    left: 25%;
+    top: 50%;
+    text-align: center;
+    font-size: xx-large;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.AboutUs{
+    position: absolute;
+    background-color: transparent;
+    margin: 0%;
+    width: 25%;
+    height: 20%;
+    left: 50%;
+    top: 50%;
+    text-align: center;
+    font-size: xx-large;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.ContactUs{
+    position: absolute;
+    background-color: transparent;
+    margin: 0%;
+    width: 25%;
+    height: 20%;
+    left: 75%;
+    top: 50%;
+    text-align: center;
+    font-size: xx-large;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/*everything above is header*/
+/*everything below is body*/
+/*everything below is home body*/
+.HomeBody{
+    position: absolute;
+    background-color: green;
+    width: 38%;
+    height: 44%;
+    top: 30%;
+    left: 30%;
+}
+.Homebodypic{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+.Request{
+    position: absolute;
+    top: 10%;
+    left: 5%;
+    font-size: 30px;
+    color: red;
+}
+.Instructions{
+    position: absolute;
+    top: 20%;
+    left: 5%;
+    font-size: 20px;
+}
+.EmailBody{
+    position: absolute;
+    width: 40%;
+    height: 50%;
+    top: 35%;
+    left: 5%;
+}
+/*everything above is home body*/
+/*everything below is Services body*/
+.allservices{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    bottom: auto;
+}
+.Service1{
+position: absolute;
+width: 60%;
+height: 30%;
+top: 1%;
+background-color: transparent;
+animation-name: slideleft;
+animation-duration: 3s;
+}
+.Service1pic{
+position: absolute;
+width: 40%;
+height: 100%;
+background-color: transparent;
+}
+.Service1word{
+position: absolute;
+width: 60%;
+height: 100%;
+background-color: transparent;
+left: 40%;
+}
+.Service2{
+    position: absolute;
+    width: 60%;
+    height: 30%;
+    top: 32%;
+    left: 40%;
+    background-color: transparent;
+    animation-name: slideright;
+    animation-duration: 3s;
+}
+.Service2pic{
+    position: absolute;
+    width: 40%;
+    height: 100%;
+    left: 60%;
+    background-color: transparent;
+    }
+    .Service2word{
+    position: absolute;
+    width: 60%;
+    height: 100%;
+    background-color: transparent;
+    }
+.Service3{
+    position: absolute;
+    width: 60%;
+    height: 30%;
+    top: 63%;
+    background-color: transparent;
+    animation-name: slideleft;
+    animation-duration: 3s;
+    }
+    .Service3pic{
+    position: absolute;
+    width: 40%;
+    height: 100%;
+    background-color: transparent;
+    }
+    .Service3word{
+    position: absolute;
+    width: 60%;
+    height: 100%;
+    background-color: transparent;
+    left: 40%;
+    }
+    .Servicepic{
+        position: absolute;
+        width: 100%;
+        height: 100%;
+    }
+    .ServicewordheadL{
+        position: absolute;
+        width: 40%;
+        height: 20%;
+        background-color: transparent;
+        top: 5%;
+        left: 10%;
+        font-size: x-large;
+        text-align: center;
+    }
+    .ServicewordheadR{
+        position: absolute;
+        width: 40%;
+        height: 20%;
+        background-color: transparent;
+        top: 5%;
+        left: 50%;
+        font-size: x-large;
+        text-align: center;
+    }
+    .ServicewordbodyL{
+        position: absolute;
+        width: 90%;
+        height: 70%;
+        top: 30%;
+        background-color: white;
+    }
+    .ServicewordbodyR{
+        position: absolute;
+        width: 90%;
+        height: 70%;
+        top: 30%;
+        left: 10%;
+        background-color: white;
+    }
+    .Servicewordbodyin{
+        position: absolute;
+        width: 80%;
+        height: 80%;
+        top: 10%;
+        left: 5%;
+        font-size: large;
+    }
+
+/*transitions for Services body below*/
+@keyframes slideright{
+    0% {left: 100%;}
+    100% { left: 40%;}
+}
+@keyframes slideleft{
+    0% {left: -60%;}
+    100%{left: 0%;}
+}
+/*transitions for Services body above*/
+/*everything above is Services body*/
+/*everything below is About Us body*/
+.PortfolioBody{
+    position: absolute;
+    width: 90%;
+    height: 85%;
+    left: 5%;
+    top: 10%;
+    background-color: transparent;
+}
+.Portpic1{
+    position: absolute;
+    width: 20%;
+    height: 33%;
+    background-color: transparent;
+}
+.Portpic2{
+    position: absolute;
+    width: 20%;
+    height: 33%;
+    left: 20%;
+    background-color: transparent;
+}
+.Portpic3{
+    position: absolute;
+    width: 20%;
+    height: 33%;
+    left: 40%;
+    background-color: transparent;
+}
+.Portpic4{
+    position: absolute;
+    width: 20%;
+    height: 33%;
+    left: 60%;
+    background-color: transparent;
+}
+.Portpic5{
+    position: absolute;
+    width: 20%;
+    height: 33%;
+    left: 80%;
+    background-color: transparent;
+}.Portpic6{
+    position: absolute;
+    width: 20%;
+    height: 33%;
+    top: 33%;
+    background-color: transparent;
+}
+.Portpic7{
+    position: absolute;
+    width: 20%;
+    height: 33%;
+    left: 20%;
+    top: 33%;
+    background-color: transparent;
+}
+.Portpic8{
+    position: absolute;
+    width: 20%;
+    height: 33%;
+    left: 40%;
+    top: 33%;
+    background-color: transparent;
+}
+.Portpic9{
+    position: absolute;
+    width: 20%;
+    height: 33%;
+    left: 60%;
+    top: 33%;
+    background-color: transparent;
+}
+.Portpic10{
+    position: absolute;
+    width: 20%;
+    height: 33%;
+    left: 80%;
+    top: 33%;
+    background-color: transparent;
+}.Portpic11{
+    position: absolute;
+    width: 20%;
+    height: 33%;
+    top: 66%;
+    background-color: transparent;
+}
+.Portpic12{
+    position: absolute;
+    width: 20%;
+    height: 33%;
+    left: 20%;
+    top: 66%;
+    background-color: transparent;
+}
+.Portpic13{
+    position: absolute;
+    width: 20%;
+    height: 33%;
+    left: 40%;
+    top: 66%;
+    background-color: transparent;
+}
+.Portpic14{
+    position: absolute;
+    width: 20%;
+    height: 33%;
+    left: 60%;
+    top: 66%;
+    background-color: transparent;
+}
+.Portpic15{
+    position: absolute;
+    width: 20%;
+    height: 33%;
+    left: 80%;
+    top: 66%;
+    background-color: transparent;
+}
+.Portpicin{
+    position: absolute;
+    width: 90%;
+    height: 90%;
+    left: 5%;
+    top: 5%;
+}
+/*everything above is About Us body*/
+/*everything below is Contact Us body*/
+.OwnerPhoto{
+    position: absolute;
+    background-color: green;
+    width: 30%;
+    height: 70%;
+    left: 15%;
+    top: 20%;
+}
+.Ownerpic{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+.OwnerContact{
+    position: absolute;
+    background-color: white;
+    width: 40%;
+    height: 70%;
+    right: 15%;
+    top: 20%;
+}
+.OwnerNameBox{
+    position: absolute;
+    background-color: lightgray;
+    width: 100%;
+    height: 20%;
+}
+.OwnerName{
+    position: absolute;
+    background-color: transparent;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    font-size: xx-large;
+    top: 30%;
+}
+.OwnerContactinfo{
+    position: absolute;
+    background-color: transparent;
+    width: 100%;
+    height: 80%;
+    top: 20%;
+}
+.OwnercontactNum{
+    position: absolute;
+    background-color: transparent;
+    width: 100%;
+    height: 20%;
+    font-size: large;
+    top: 10%;
+    left: 5%;
+}
+.Ownercontactemail{
+    position: absolute;
+    background-color: transparent;
+    width: 100%;
+    height: 20%;
+    font-size: large;
+    top: 25%;
+    left: 5%;
+}
+.Ownercontactabout{
+    position: absolute;
+    background-color: transparent;
+    width: 100%;
+    height: 40%;
+    top: 40%;
+    left: 5%;
+    font-size: large;
+}
+/*everything above is Contact Us body*/
+/*everything above is body*/
+/*everything below is footer*/
+.footer{
+    position: absolute;
+    background-color: green;
+    bottom: 0%;
+    width: 100%;
+    height: 15%;
+}
